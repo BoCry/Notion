@@ -7,10 +7,12 @@
 
 </head>
 <body>
-  .wrap{ :'ng-app' => 'app' }
-  .time-to
-    𝓛𝓾𝓷𝓪𝓻 𝓝𝓮𝔀 𝓨𝓮𝓪𝓻...
-    %span{ :'countdown' => '', :'date' => 'February 11, 2024 12:00:00' } &nbsp;
+  <div class="wrap" ng-app="app">
+  <div class="time-to">
+    Lunar New Year...
+    <span countdown date="February 11, 2024 12:00:00">&nbsp;</span>
+  </div>
+</div>
   <script src="script.js"></script>
   
 </body>
